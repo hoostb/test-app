@@ -6,7 +6,7 @@ import os
 import pickle
 import warnings
 
-from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
+
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 

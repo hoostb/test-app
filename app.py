@@ -1,11 +1,11 @@
-!pip install spacy
+
 import streamlit as st
 import pandas as pd
 import numpy as np
 import os
 import pickle
 import warnings
-import spacy
+
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 
 from sklearn.feature_extraction.text import TfidfVectorizer
